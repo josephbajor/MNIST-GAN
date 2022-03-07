@@ -6,7 +6,7 @@ class Hparams:
     ### System ###
     data_path:str = r'D:/Repos/practice/MNIST CNN classifier/'
     model_path:str = r'D:/Repos/practice/MNIST-GAN/modelparams'
-    device:str = 'cpu'
+    device:str = 'gpu'
     num_workers:int = 1
 
     ### Model Parameters ###
